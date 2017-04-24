@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body {
+ background-image: url('http://varemerke.info/wp-content/uploads/2016/09/modern-concept-white-marble-background-marble-iphone-wallpaper-free-marble-wallpaper-7.jpg');
+ text-align: left;
+ 
+}
+
+h1 {
+    font-size: 5rem !important;
+    color: white;
+    font-family:'Just Another Hand';
+ 
+}
+
+.card-description-thang {
+    font-size:30px;
+}
+
+h2 {
+     font-family:'Just Another Hand';
+}
+
+
+p{
+    font-family:'Just Another Hand';
+    font-size: 30px;
+    color:black;
+}
+
+#search {
+    font-size: 24px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LA Data Project</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">        
+        <!-- Include Bootstrap -->
+<link href="https://fonts.googleapis.com/css?family=League+Script|Parisienne" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|League+Script|Parisienne" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <h1> Los Angeles</h1>
+        <h2>Let's Get Involved</h2>
+      
+    <p>
+        <br> Volunteer, Join, Become Involved in your community
+         with this new handy website! Simply input your zipcode and my website that go hard 
+         will search up events anyone in the Los Angeles county can participate in. 
+       </p>  
+        
+        <input style="width: 50%" id="search" />
+        <button onclick={getData()}>Get Data</button>
+        <div class="row">
+        <ul id="result">
+
+        </ul>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
